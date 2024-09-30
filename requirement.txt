@@ -1,0 +1,12 @@
+Requirements
+1. Python
+Version: Python 3.x (preferably 3.7 or higher)
+2. Python Libraries/Dependencies
+nltk (Natural Language Toolkit): This library is used for text processing, specifically for finding synonyms using WordNet.
+Installation:(in command prompt)
+code-pip install nltk
+You will also need to download the WordNet corpus in NLTK:
+import nltk
+nltk.download('wordnet')
+tkinter (Python Standard Library): This is used to create the GUI for the application. tkinter comes pre-installed with Python, so you do not need to install it separately. However, ensure it is available on your system by running the following command in your Python environment:
+ code-import tkinter
